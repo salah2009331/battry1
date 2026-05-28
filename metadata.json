@@ -1,0 +1,14 @@
+{
+  "name": "Remix: Eagle AI - Battery Intelligence",
+  "description": "نظام ذكاء اصطناعي متطور لتحليل أكواد البطاريات باستخدام الرؤية الحاسوبية ومعالجة Neural OCR المتطورة للتأقلم مع ظروف الإضاءة الصعبة.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API",
+    "WhatsApp Integration",
+    "Mobile-First Design",
+    "Real-time Preview"
+  ]
+}

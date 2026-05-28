@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-wa-teal: #075e54;
+  --color-wa-green: #25d366;
+  --color-wa-green-dark: #128c7e;
+  --color-wa-bubble: #dcf8c6;
+  --color-wa-bg: #e5ddd5;
+  --color-app-bg: #f3f4f6;
+  
+  --color-brand-red: #ed1c24;
+  --color-brand-red-dark: #c1121f;
+  --color-brand-orange: #f97316;
+  
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+}
+
+@layer base {
+  body {
+    @apply bg-app-bg text-neutral-900 antialiased;
+  }
+}
+
+.font-como {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+
+.rtl-select {
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+
+.form-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.form-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.form-scrollbar::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
+
+.form-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
